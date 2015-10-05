@@ -13,6 +13,9 @@
     <string name="button_validate">Validate</string>
     <string name="title_activity_second">SecondActivity</string>
 
+    <string name="button_newPerson">New Person</string>
+
     <string name="hello_world">Hello world!</string>
     <string name="action_settings">Settings</string>
+    <string name="title_activity_list_view">ListViewActivity</string>
 </resources>
