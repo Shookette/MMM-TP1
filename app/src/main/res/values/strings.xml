@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">MMM-TP1</string>
+
+    <string name="action_resetData">Reset Data</string>
+    <string name="action_addTel">Add Tel Number</string>
+    <string name="action_searchBirthCity">Search Birth City On Wikipedia</string>
+    <string name="label_lastName">Last Name</string>
+    <string name="label_firstName">First Name</string>
+    <string name="label_birthDay">BirthDay</string>
+    <string name="label_birthCity">Birth City</string>
+    <string name="label_birthCounty">Birth County</string>
+    <string name="label_tel">Tel Number</string>
+    <string name="button_validate">Validate</string>
+    <string name="title_activity_second">SecondActivity</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+</resources>

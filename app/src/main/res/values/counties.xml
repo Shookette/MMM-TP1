@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="counties">
+        <item>"Côtes-d'Armor"</item>
+        <item>"Finistère"</item>
+        <item>"Ille-et-Vilaine"</item>
+        <item>"Morbihan"</item>
+        <item>"Mayenne"</item>
+    </string-array>
+</resources>

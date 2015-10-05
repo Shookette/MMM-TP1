@@ -1,0 +1,91 @@
+<FrameLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:id="@+id/linear_1"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <TextView
+            android:id="@+id/label_lastName"
+            android:text="@string/label_lastName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <EditText
+            android:inputType="text"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:singleLine="true"
+            android:id="@+id/edit_lastName" />
+
+        <TextView
+            android:id="@+id/label_firstName"
+            android:text="@string/label_firstName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+        <EditText
+            android:inputType="text"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/edit_firstName" />
+
+        <TextView
+            android:id="@+id/label_birthDay"
+            android:text="@string/label_birthDay"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+            <EditText
+            android:inputType="date"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/edit_birthDay" />
+
+        <TextView
+            android:id="@+id/label_birthCity"
+            android:text="@string/label_birthCity"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+        <EditText
+            android:inputType="text"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/edit_birthCity" />
+
+        <TextView
+            android:id="@+id/label_birthCounty"
+            android:text="@string/label_birthCounty"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+        <Spinner
+            android:id="@+id/spinner_birthCounty"
+            android:entries="@array/counties"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+    </LinearLayout>
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:gravity="bottom">
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/button_validate"
+            android:text="@string/button_validate"
+            android:onClick="sendDataToSecondActivity"
+            />
+
+    </RelativeLayout>
+
+</FrameLayout>
